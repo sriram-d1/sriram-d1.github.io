@@ -13,252 +13,260 @@
       background-image: linear-gradient(90deg, rgba(107,194,229,0.2) 50%, transparent 50%),
                     linear-gradient(90deg, rgba(107,194,229,0.2) 50%, transparent 50%);
   background-size: 3px 100%, 100% 3px;
-
     }
-    html{
+    html {
         scroll-behavior: smooth;
     }
     #name {
-        padding-top: 30%;
-        
+        padding-top: 10%;
     }
-    #name h1{
-        font-size: 3.5rem;
+    #home h1{
+    padding-top: 15%; /* Adjust the value as needed */
+}
+
+    #name h1 {
+        font-size: 3rem;
         color: #800000;
         padding-bottom: 8px;
     }
-    #name p{
-        font-size: 1.3rem;
+    #name p {
+        font-size: 1.2rem;
         color: black;
     }
-    #bg{
+    #bg {
         padding-left: 4%;
         padding-top: 6%;
     }
-    #header {
-        padding-top: 15% ;
-        padding-left: 23%;
-        margin-right: 5%;
+    #header, #header1 {
+        padding-top: 5%;
+        text-align: center;
+        color: skyblue; /* Change color to skyblue */
     }
-    #header1{
-        padding-top: 1%;
-        padding-left: 23%;
-        margin-right: 41%;
-    }
-#header .btn,
-#header1 .btn {
-    border-radius: 18px;
-    background-color: #333; 
-    color: #fff; 
-    margin-right: 35%; 
-    padding-top: 1%; 
-    font-size: 1.4rem;
-}
-#header .btn:hover,
-#header1 .btn:hover {
-    background-color: #C0C0C0; 
-    color: #800000; 
-    font-weight: bold;
-    padding-top: 1%; 
+    .btn {
     
-    font-size: 1.3rem;
-}
-.button-group {
-    display: flex;
-    justify-content: space-between;
- 
-}
-
-#sks{
-    padding-top: 5%;
-}
-.skills-heading {
-    font-size: 3.5rem;
-    color: #800000;
-}
-#headsection {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 5%;
-    background-color: #ffffff; 
-    z-index: 999; 
-    padding-left: 60%;
-}
-
-#headsection a {
-    margin-right: 20px;
+    border-radius: 20px !important;
+    background-color: #800000 !important; /* Default background color */
+    color: white !important;
+    margin-right: 3%;
+    padding-top: 1%;
     font-size: 1.4rem;
-    font-weight: 400;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
-#headsection a:hover {
-    text-decoration: none; 
-    color: black;
+.btn:hover {
+    background-color: #C0C0C0;
+    color: #800000;
     font-weight: bold;
+}
+
+    .button-group {
+        margin-bottom: 20px;
+    }
+    .skills-heading {
+        font-size: 2.5rem;
+        color: #800000;
+    }
+    .skills-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    .skill-item {
+        width: 45%; 
+        padding: 20px;
+        margin: 10px;
+        border: 2px solid transparent;
+        border-color: skyblue;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .skill-item:hover {
+        border-color: maroon;
+        box-shadow: 0 0 10px maroon;
+    }
+    .skill-item h2 {
+        margin-top: 10px;
+        color: #800000;
+    }
+    .skill-item p {
+        color: #666;
+    }
+    .project-item {
+        margin: 20px;
+        text-align: center;
+    }
+    .contact-item {
+        margin: 20px;
+        text-align: center;
+    }
+    .contact-item .icon img {
+        width: 50px; 
+        height: 50px;
+    }
+    .contact-info h2 a {
+        text-decoration: none; 
+        color: rgb(70, 70, 85);
+        text-shadow: 0 0 2px blue;
+    }
+    .contact-info h2 a:hover {
+       color: blue;
+    }
+    #headsection {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+    position: fixed; 
+    width: 100%; 
+    z-index: 1000;
+}
+#headsection a{
+    color: #800000;
     text-shadow: 0 0 2px blue;
 }
-
-#skills h1{
-    font-size: 5rem;
-}
-#skills p{
-    font-size: 1.3rem;
-    color:#800000;
-    text-shadow: 0 0 4px blue;
-}
-.skills-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.skill-item {
-  width: calc(45% - 20px); 
-  padding: 50px;
-  margin: 20px;
-  margin-left: 5%;
-  border: 2px solid transparent;
-  border-color: skyblue;
-  border-radius: 10px;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.skill-item:hover {
-  border-color: maroon;
-  box-shadow: 0 0 10px maroon;
-}
-
-.skill-item h2 {
-  margin-top: 10px;
-  color: #800000;
-}
-
-.skill-item p {
-  color: #666;
-}
-#sf {
-    font-size: 1.5rem;
-    text-shadow: 0 0 4px blue;
-}
-#projects{
-    padding-top: 5%;
-    padding-bottom: 20%;
-}
-.weath {
-    border: 2px solid transparent;
-  border-color: skyblue;
-    padding: 10px;
-    border-radius: 10px;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-.weath h2{
-    font-size: 2rem;
-    color: #800000;
-}
-.weath p{
-    font-size: 1.2rem;
-}
-#api{
-    padding-top: 2%;
-}
-#api div:hover {
-    border-color: maroon;
-  box-shadow: 0 0 10px maroon;
-}
-
-#projects .btn {
-    
-    border-radius: 30px;
-    background-color: #333; 
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 1.5rem;
-}
-
-#projects .btn:hover {
-    background-color: silver; 
+#headsection a:hover{
     color: blue;
+}
+nav {
+    color: black; 
     font-weight: bold;
 }
-#we {
-    margin-top: 10%;
+.project-item {
+    margin: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 2px solid skyblue; /* Add sky blue border */
+    border-radius: 10px; /* Add border radius for rounded corners */
+
+}
+.weath h2{
+    color: #800000;
+}
+
+.project-item {
+    margin: 20px;
+    text-align: center;
+    border: 2px solid skyblue; /* Add sky blue border */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    flex: 0 0 calc(50% - 40px); /* Adjust width to fit two items per row with margin */
+    position: relative; /* Added */
+}
+
+.project-item:hover {
+    border-color: #800000; /* Change border color on hover */
+    box-shadow: 0 0 10px #800000; /* Add glow effect */
+}
+
+.bt {
+    border-radius: 20px !important;
+    background-color: #800000 !important; /* Default background color */
+    color: white !important;
+    font-size: 1.4rem;
+    text-decoration: none;
+    position: absolute; /* Added */
+    bottom: -30px; /* Adjust button position */
+    left: 50%; /* Center button horizontally */
+    transform: translateX(-50%); /* Center button horizontally */
+}
+
+.bt:hover {
+    background-color: #C0C0C0;
+    color: #800000;
+    font-weight: bold;
+}
+#contact{
+    padding-top: 5%;
 }
 .contact-item {
-    margin-top: 2%; 
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
+    margin: 20px;
+    text-align: center;
+    flex: 0 0 calc(50% - 40px); /* Adjust width to fit two items per row with margin */
+    position: relative; /* Added */
 }
 
-.contact-item .icon {
-    margin-bottom: 10px; 
-}
-
-.contact-item .icon img {
-    width: 80px; 
-    height: 80px;
+.contact-item:hover {
+    box-shadow: 0 0 10px #800000; /* Add glow effect */
+    border-radius: 20px;
+    
 }
 
 .contact-info h2 a {
-    text-decoration: none; 
+    text-decoration: none;
     color: rgb(70, 70, 85);
     text-shadow: 0 0 2px blue;
 }
+
 .contact-info h2 a:hover {
-   color:blue;
+    color: blue;
 }
+
+.icon img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Adjust spacing between contact items */
+.contact-items {
+    margin-top: 30px;
+}
+
+/* Adjust the size and spacing of contact items based on screen size */
+@media (min-width: 768px) {
+    .contact-item {
+        flex: 0 0 calc(33.33% - 40px); /* Adjust width to fit three items per row with margin */
+    }
+}
+
 
   </style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <!-- MAIN PAGE -->
-<div class="Container" id="home">
-    <div class="row">
-        <div class="col-6">
-                <img src="./Assets/image.png" class="img-fluid" style="height: 98%;" id="bg"> 
+    <div class="container-fluid" id="headsection">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sks">SKILLS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">PROJECTS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="certifications.html" target="_blank">CERTIFICATIONS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <div class="col-6">
+    </div>
+    
+<!-- MAIN PAGE -->
+<div class="container" id="home">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="./Assets/image.png" class="img-fluid" style="height: 98%;" id="bg"> 
+        </div>
+        <div class="col-md-6">
             <div id="name">
                 <h1 >Uday Sriram Dutta</h1>
-                <p>CS-Undergraduate at RVR & JC College of Engineering.Tech enthusiast with a passion for problem-solving.</p>
-                <div id="header">
-                    <div class="button-group">
-                        <a href="#sks" class="btn " type="button">SKILLS</a>
-                        <a href="#projects" class="btn ">PROJECTS</a>
-                    </div>
+                <p>CS-Undergraduate at RVR & JC College of Engineering. Tech enthusiast with a passion for problem-solving.</p>
+                <div class="button-group">
+                    <a href="#sks" class="btn" type="button">SKILLS</a>
+                    <a href="#projects" class="btn">PROJECTS</a>
+                    <a href="certifications.html" class="btn" target="_blank">CERTIFICATIONS</a>
+                    <a href="#contact" class="btn">CONTACT</a>
                 </div>
-                <div id="header1">
-                    <div class="button-group">
-                        <a href="certifications.html" class="btn" target="_blank">CERTIFICATIONS</a>
-                        <a href="#contact" class="btn ">CONTACT</a>
-                    </div>
-                </div>
+            </div>
         </div>
     </div>
 </div>
 
-<div class="container-fluid" id="headsection">
-    <div class="row">
-        <div>
-            <a href="#home">HOME</a>
-            <a href="#sks">SKILLS</a>
-            <a href="#projects">PROJECTS</a>
-            <a href="certifications.html" target="_blank">CERTIFICATIONS</a>
-            <a href="#contact">CONTACT</a>
-        </div>
-    </div>
-</div>
+
+
 
 <!-- SKILLS SECTION -->
-<div class="Container" id="sks">
+<div class="container" id="sks">
     <div class="row">
         <div class="col-12">
             <div id="skills">
@@ -270,112 +278,109 @@
 </div>
 
 <div class="skills-container">
-  <div class="skill-item">
-    <h2>C</h2>
-    <p>Proficient in C programming with a strong foundation in data structures and algorithms,consistently delivering efficient and reliable software solutions.</p>
-  </div>
-  
-  <div class="skill-item">
-    <h2>Python</h2>
-    <p>Proficient in Python programming, with a track record of developing robust applications and automating complex tasks, delivering efficiency and reliability.</p>
-  </div>
-  
-  <div class="skill-item">
-    <h2>Java</h2>
-    <p>Proficient in Java programming, with a focus on performance, with expertise in object-oriented design and a commitment to delivering robust, high-quality code.</p>
-  </div>
-  
-  <div class="skill-item">
-    <h2>HTML, CSS, JS</h2>
-    <p>Proficient in HTML, CSS, and JavaScript, crafting dynamic web experiences with clean code and seamless functionality.</p>
-  </div>
-  
-</div>
-<p  id="sf" class="text-center">SOFTWARE</p>
-<div class="skills-container">
     <div class="skill-item">
-      <h2>Adobe PhotoShop</h2>
-      <p>Skilled in Adobe Photoshop, adept at transforming creative ideas into visually compelling images and designs,with a focus on precision and aesthetics.</p>
+        <h2>C</h2>
+        <p>Proficient in C programming with a strong foundation in data structures and algorithms, consistently delivering efficient and reliable software solutions.</p>
     </div>
-    
     <div class="skill-item">
-      <h2>Eclipse IDE</h2>
-      <p>Experienced in Eclipse IDE, proficient at crafting clean and efficient code with a focus on productivity and problem-solving.</p>
+        <h2>Python</h2>
+        <p>Proficient in Python programming, with a track record of developing robust applications and automating complex tasks, delivering efficiency and reliability.</p>
     </div>
-</div>
-<p  id="sf" class="text-center">TOOLS</p>
-<div class="skills-container">
     <div class="skill-item">
-      <h2>Visual Studio Code</h2>
-      <p>Skilled in Visual Studio Code, proficient at coding efficiently and creating polished software with ease.</p>
+        <h2>Java</h2>
+        <p>Proficient in Java programming, with a focus on performance, with expertise in object-oriented design and a commitment to delivering robust, high-quality code.</p>
     </div>
-    
     <div class="skill-item">
-      <h2>Selenium</h2>
-      <p>Proficient with Selenium, skilled at automating web tasks effortlessly for smooth online experiences.</p>
+        <h2>HTML, CSS, JS</h2>
+        <p>Proficient in HTML, CSS, and JavaScript, crafting dynamic web experiences with clean code and seamless functionality.</p>
     </div>
 </div>
 
-<!--PROJECTS SECTION-->
-<div class="Container" id="projects">
+<p id="sf" class="text-center">SOFTWARE</p>
+<div class="skills-container">
+    <div class="skill-item">
+        <h2>Adobe PhotoShop</h2>
+        <p>Skilled in Adobe Photoshop, adept at transforming creative ideas into visually compelling images and designs, with a focus on precision and aesthetics.</p>
+    </div>
+    <div class="skill-item">
+        <h2>Eclipse IDE</h2>
+        <p>Experienced in Eclipse IDE, proficient at crafting clean and efficient code with a focus on productivity and problem-solving.</p>
+    </div>
+</div>
+
+<p id="sf" class="text-center">TOOLS</p>
+<div class="skills-container">
+    <div class="skill-item">
+        <h2>Visual Studio Code</h2>
+        <p>Skilled in Visual Studio Code, proficient at coding efficiently and creating polished software with ease.</p>
+    </div>
+    <div class="skill-item">
+        <h2>Selenium</h2>
+        <p>Proficient with Selenium, skilled at automating web tasks effortlessly for smooth online experiences.</p>
+    </div>
+</div>
+
+<!-- PROJECTS SECTION -->
+<div class="container" id="projects">
     <div class="row">
         <div class="col-12">
             <div id="pro">
                 <h1 class="text-center skills-heading">PROJECTS</h1>
             </div>
         </div>
-    </div>
-    <div class="row text-center">
-        <div class="col-6" id="api">
-            <div class="weath">
-                <h2>Weather API</h2>
-                <p class="text-center">Created a dynamic weather retrieval webpage using HTML, CSS, and JavaScript, delivering real-time weather information for users worldwide.</p>
-            </div>
-        </div>
-        <div class="col-6 text-center">
-            <a href="weather/us_weather.html" class="btn" target="_blank" id="we">Check Weather</a>
-        </div>
-    </div>
-    <div class="row text-center">
-        <div class="col-6" id="api">
+    </div>      
+    <div class="row justify-content-center">
+        <!-- Project 1 -->
+        <div class="col-md-6 col-lg-4 project-item">
             <div class="weath">
                 <h2>Internal Calculator</h2>
-                <p class="text-center">The internal calculator makes it easy for students to calculate their internal marks, simplifying academic calculations.</p>
+                <p>The internal calculator makes it easy for students to calculate their internal marks, simplifying academic calculations.</p>
             </div>
         </div>
-        <div class="col-6 text-center">
-            <a href="Internal/internal.html" class="btn" target="_blank" id="we">Calculate Here</a>
+        <div class="col-md-6 col-lg-4 project-item">
+            <div class="weath">
+                <h2>Weather API</h2>
+                <p>Created a dynamic weather retrieval webpage using HTML, CSS, and JavaScript, delivering real-time weather information for users worldwide.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Buttons for projects -->
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4 text-center">
+            <a href="Internal/internal.html" class="btn bt" target="_blank">Calculate Here</a>
+        </div>
+        <div class="col-md-6 col-lg-4 text-center">
+            <a href="weather/us_weather.html" class="btn bt" target="_blank">Check Weather</a>
         </div>
     </div>
 </div>
 
 
+
+
 <!-- CONTACT SECTION -->
-<div class="contact container" id="contact">
+<div class="container" id="contact">
     <div>
         <h1 class="text-center skills-heading">CONTACT</h1>
     </div>
-    <div class="row contact-items">
-        <div class="col-md-4 contact-item">
+    <div class="row justify-content-center contact-items">
+        <!-- Contact item 1 -->
+        <div class="col-md-4 col-lg-3 contact-item">
             <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
             <div class="contact-info">
                 <h2><a href="tel:+919281452266">Contact me</a></h2>
             </div>
         </div>
-        <div class="col-md-4 contact-item">
+        <!-- Contact item 2 -->
+        <div class="col-md-4 col-lg-3 contact-item">
             <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
             <div class="contact-info">
                 <h2><a href="mailto:sriramdutta03@gmail.com">Send Email</a></h2>
             </div>
         </div>
-        <div class="col-md-4 contact-item">
-            <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
-            <div class="contact-info">
-                <h2><a href="https://goo.gl/maps/iZMHrkJ2XP8NVskGA">Navigate</a></h2>
-            </div>
-        </div>
     </div>
 </div>
+
 
 </body>
 </html>
